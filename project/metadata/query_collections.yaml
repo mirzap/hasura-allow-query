@@ -1,0 +1,11 @@
+- name: allowed-queries
+  definition:
+    queries:
+    - name: getPublicUsers
+      query: |-
+        query getPublicUsers {
+          users {
+            id
+            name
+          }
+        }
