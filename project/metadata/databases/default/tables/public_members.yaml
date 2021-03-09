@@ -1,0 +1,10 @@
+select_permissions:
+- permission:
+    columns:
+    - id
+    - name
+    filter: {}
+  role: anonymous
+table:
+  name: members
+  schema: public

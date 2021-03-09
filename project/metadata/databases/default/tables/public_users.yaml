@@ -1,0 +1,11 @@
+select_permissions:
+- permission:
+    columns:
+    - id
+    - name
+    - updated_at
+    filter: {}
+  role: anonymous
+table:
+  name: users
+  schema: public
